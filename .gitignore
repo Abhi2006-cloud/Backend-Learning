@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# FastAPI / Starlette logs
+*.log
+
+# Pytest
+.pytest_cache/
+
+# Coverage / profiling
+.coverage
+coverage.xml
+htmlcov/
+
+# Mypy / type checking
+.mypy_cache/
+.dmypy.json
+.dmypy/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Installer artifacts
+pip-wheel-metadata/
+
+# Environment variables
+.env
+.env.*
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# OS generated
+Thumbs.db
+
+# Uploads or generated user content
+uploads/
+
+# Caches
+.cache/
+
+# Node (in case you add JS later)
+node_modules/
+
+# Docker (in case used)
+*.env
+
+
