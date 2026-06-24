@@ -1,0 +1,15 @@
+What endpoint taught me what?
+================================
+
+/inspect          -> Request Structure + Headers + Client → Server Communication
+/profile          -> Statelessness + Authorization Header + 401 Status Code
+/resource (GET)   -> GET method (safe, read-only)
+/resource (POST)  -> POST method + 201 Created
+/resource (PUT)   -> PUT method + Idempotency
+/resource (PATCH) -> PATCH method (partial update)
+/resource (DELETE)-> DELETE method
+/status/{code}    -> Status Codes (200, 201, 400, 404, 500, etc.)
+/cache            -> ETag + If-None-Match + Cache-Control + 304 Not Modified
+/user             -> Accept Header + Content Negotiation (JSON vs text/plain)
+/upload           -> Multipart Form Data + Content-Type
+(cors middleware) -> Origin + Access-Control-Allow-Origin + Preflight Request
